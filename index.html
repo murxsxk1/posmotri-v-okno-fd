@@ -12,26 +12,33 @@
   </head>
   <body class="page">
     <main class="content">
+      <!--ЛЕВАЯ СЕКЦИЯ-->
       <section class="result">
+        <!--Главное видео-->
         <div class="result__video-container">
           <video src="" controls class="result__video" poster=""></video>
         </div>
+        <!--Общий блок формы поиска, чекбоксы и кнопка-->
         <form class="search-form">
+          <!--Форма поиска-->
           <fieldset class="search-form__fieldset">
             <h2 class="search-form__fieldset-title">Город</h2>
             <label class="search-form__label">
               <span class="search-form__label-text visually-hidden">Город</span>
               <input
                 type="text"
-                placeholder="Санкт Петербург, например"
+                placeholder="Санкт-Петербург, например"
                 name="city"
                 class="search-form__textfield"
               />
             </label>
           </fieldset>
+          <!--Блок со всеми чекбоксами-->
           <fieldset class="search-form__fieldset">
+            <!--Заголовок чекбоксов-->
             <h2 class="search-form__fieldset-title">Время суток</h2>
             <div class="search-form__checkbox-list">
+              <!--Чекбокс утро-->
               <label class="search-form__label">
                 <input
                   type="checkbox"
@@ -42,6 +49,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">Утро</span>
               </label>
+              <!--Чекбокс день-->
               <label class="search-form__label">
                 <input
                   type="checkbox"
@@ -52,6 +60,7 @@
                 <span class="search-form__pseudo-checkbox"></span>
                 <span class="search-form__label-text">День</span>
               </label>
+              <!--Чекбокс ночь-->
               <label class="search-form__label">
                 <input
                   type="checkbox"
@@ -64,15 +73,19 @@
               </label>
             </div>
           </fieldset>
+          <!--Кнопка поиска-->
           <button type="submit" class="button search-form__submit-button">
             Найти
           </button>
         </form>
       </section>
+      <!--ПРАВАЯ СЕКЦИЯ-->
       <section class="content__details">
+        <!--Заголовок правой секциии-->
         <h1 class="title">
           <span class="content__accent">По-</span><br />смотри<br />в окно
         </h1>
+        <!--Список видео городов-->
         <ul class="content__list">
           <!-- ЗДЕСЬ ОКАЖУТСЯ ТЕМПЛЕЙТЫ КАРТОЧЕК -->
         </ul>
