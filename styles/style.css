@@ -110,7 +110,7 @@ ol {
 .search-form__textfield {
   min-width: 225px;
   border-width: 1px 0 1px 0;
-  border-color: #fff;
+  border-color: currentColor;
   padding: 2px 0;
   color: inherit;
   font: inherit;
@@ -181,7 +181,7 @@ ol {
 /*Кнопка поиска*/
 .button {
   height: 34px;
-  border: 1px solid #fff;
+  border: 1px solid currentColor;
   color: inherit;
   font: inherit;
   font-weight: 700;
@@ -287,13 +287,17 @@ ol {
 }
 
 .content__video-card-title {
-  padding-bottom: 6px;
+  max-width: 200px;
+  padding-bottom: 6px; 
+  overflow: hidden;
   font-family: Oswald, sans-serif;
   font-weight: 700;
   font-size: 30px;
   line-height: 30px;
   text-align: left;
   text-transform: uppercase;
+  text-overflow: ellipsis; 
+  white-space: nowrap;
 }
 
 .content__video-card-description {
