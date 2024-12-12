@@ -1,1 +1,1 @@
-https://github.com/murxsxk1/posmotri_v_okno
+https://github.com/murxsxk1/posmotri-v-okno-fd
